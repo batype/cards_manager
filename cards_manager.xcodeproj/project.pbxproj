@@ -7,65 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB7A8A8C2AF0A78800489208 /* cards_managerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8A8B2AF0A78800489208 /* cards_managerApp.swift */; };
-		BB7A8A8E2AF0A78800489208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8A8D2AF0A78800489208 /* ContentView.swift */; };
-		BB7A8A902AF0A78800489208 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8A8F2AF0A78800489208 /* Item.swift */; };
 		BB7A8A922AF0A78A00489208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7A8A912AF0A78A00489208 /* Assets.xcassets */; };
 		BB7A8A952AF0A78A00489208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7A8A942AF0A78A00489208 /* Preview Assets.xcassets */; };
-		BB7A8AA12AF0A78B00489208 /* cards_managerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8AA02AF0A78B00489208 /* cards_managerTests.swift */; };
-		BB7A8AAB2AF0A78B00489208 /* cards_managerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8AAA2AF0A78B00489208 /* cards_managerUITests.swift */; };
-		BB7A8AAD2AF0A78B00489208 /* cards_managerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8AAC2AF0A78B00489208 /* cards_managerUITestsLaunchTests.swift */; };
+		BB7A8ABA2AF0A88600489208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8AB92AF0A88500489208 /* ViewController.swift */; };
+		BB7A8ABC2AF0D25400489208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A8ABB2AF0D25400489208 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BB7A8A9D2AF0A78B00489208 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB7A8A802AF0A78800489208 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB7A8A872AF0A78800489208;
-			remoteInfo = cards_manager;
-		};
-		BB7A8AA72AF0A78B00489208 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB7A8A802AF0A78800489208 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB7A8A872AF0A78800489208;
-			remoteInfo = cards_manager;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BB7A8A882AF0A78800489208 /* cards_manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cards_manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7A8A8B2AF0A78800489208 /* cards_managerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards_managerApp.swift; sourceTree = "<group>"; };
-		BB7A8A8D2AF0A78800489208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BB7A8A8F2AF0A78800489208 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BB7A8A912AF0A78A00489208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7A8A942AF0A78A00489208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB7A8A962AF0A78A00489208 /* cards_manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cards_manager.entitlements; sourceTree = "<group>"; };
 		BB7A8A972AF0A78A00489208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB7A8A9C2AF0A78B00489208 /* cards_managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cards_managerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7A8AA02AF0A78B00489208 /* cards_managerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards_managerTests.swift; sourceTree = "<group>"; };
-		BB7A8AA62AF0A78B00489208 /* cards_managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cards_managerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7A8AAA2AF0A78B00489208 /* cards_managerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards_managerUITests.swift; sourceTree = "<group>"; };
-		BB7A8AAC2AF0A78B00489208 /* cards_managerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards_managerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB7A8AB92AF0A88500489208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB7A8ABB2AF0D25400489208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BB7A8A852AF0A78800489208 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB7A8A992AF0A78B00489208 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB7A8AA32AF0A78B00489208 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				BB7A8A8A2AF0A78800489208 /* cards_manager */,
-				BB7A8A9F2AF0A78B00489208 /* cards_managerTests */,
-				BB7A8AA92AF0A78B00489208 /* cards_managerUITests */,
 				BB7A8A892AF0A78800489208 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				BB7A8A882AF0A78800489208 /* cards_manager.app */,
-				BB7A8A9C2AF0A78B00489208 /* cards_managerTests.xctest */,
-				BB7A8AA62AF0A78B00489208 /* cards_managerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,13 +53,12 @@
 		BB7A8A8A2AF0A78800489208 /* cards_manager */ = {
 			isa = PBXGroup;
 			children = (
-				BB7A8A8B2AF0A78800489208 /* cards_managerApp.swift */,
-				BB7A8A8D2AF0A78800489208 /* ContentView.swift */,
-				BB7A8A8F2AF0A78800489208 /* Item.swift */,
 				BB7A8A912AF0A78A00489208 /* Assets.xcassets */,
 				BB7A8A962AF0A78A00489208 /* cards_manager.entitlements */,
 				BB7A8A972AF0A78A00489208 /* Info.plist */,
 				BB7A8A932AF0A78A00489208 /* Preview Content */,
+				BB7A8AB92AF0A88500489208 /* ViewController.swift */,
+				BB7A8ABB2AF0D25400489208 /* AppDelegate.swift */,
 			);
 			path = cards_manager;
 			sourceTree = "<group>";
@@ -115,23 +69,6 @@
 				BB7A8A942AF0A78A00489208 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BB7A8A9F2AF0A78B00489208 /* cards_managerTests */ = {
-			isa = PBXGroup;
-			children = (
-				BB7A8AA02AF0A78B00489208 /* cards_managerTests.swift */,
-			);
-			path = cards_managerTests;
-			sourceTree = "<group>";
-		};
-		BB7A8AA92AF0A78B00489208 /* cards_managerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BB7A8AAA2AF0A78B00489208 /* cards_managerUITests.swift */,
-				BB7A8AAC2AF0A78B00489208 /* cards_managerUITestsLaunchTests.swift */,
-			);
-			path = cards_managerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,42 +91,6 @@
 			productReference = BB7A8A882AF0A78800489208 /* cards_manager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB7A8A9B2AF0A78B00489208 /* cards_managerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB7A8AB32AF0A78B00489208 /* Build configuration list for PBXNativeTarget "cards_managerTests" */;
-			buildPhases = (
-				BB7A8A982AF0A78B00489208 /* Sources */,
-				BB7A8A992AF0A78B00489208 /* Frameworks */,
-				BB7A8A9A2AF0A78B00489208 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB7A8A9E2AF0A78B00489208 /* PBXTargetDependency */,
-			);
-			name = cards_managerTests;
-			productName = cards_managerTests;
-			productReference = BB7A8A9C2AF0A78B00489208 /* cards_managerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BB7A8AA52AF0A78B00489208 /* cards_managerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB7A8AB62AF0A78B00489208 /* Build configuration list for PBXNativeTarget "cards_managerUITests" */;
-			buildPhases = (
-				BB7A8AA22AF0A78B00489208 /* Sources */,
-				BB7A8AA32AF0A78B00489208 /* Frameworks */,
-				BB7A8AA42AF0A78B00489208 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB7A8AA82AF0A78B00489208 /* PBXTargetDependency */,
-			);
-			name = cards_managerUITests;
-			productName = cards_managerUITests;
-			productReference = BB7A8AA62AF0A78B00489208 /* cards_managerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,14 +103,6 @@
 				TargetAttributes = {
 					BB7A8A872AF0A78800489208 = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					BB7A8A9B2AF0A78B00489208 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = BB7A8A872AF0A78800489208;
-					};
-					BB7A8AA52AF0A78B00489208 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = BB7A8A872AF0A78800489208;
 					};
 				};
 			};
@@ -227,8 +120,6 @@
 			projectRoot = "";
 			targets = (
 				BB7A8A872AF0A78800489208 /* cards_manager */,
-				BB7A8A9B2AF0A78B00489208 /* cards_managerTests */,
-				BB7A8AA52AF0A78B00489208 /* cards_managerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,20 +134,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB7A8A9A2AF0A78B00489208 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB7A8AA42AF0A78B00489208 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,43 +141,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7A8A8E2AF0A78800489208 /* ContentView.swift in Sources */,
-				BB7A8A902AF0A78800489208 /* Item.swift in Sources */,
-				BB7A8A8C2AF0A78800489208 /* cards_managerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB7A8A982AF0A78B00489208 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB7A8AA12AF0A78B00489208 /* cards_managerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB7A8AA22AF0A78B00489208 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB7A8AAD2AF0A78B00489208 /* cards_managerUITestsLaunchTests.swift in Sources */,
-				BB7A8AAB2AF0A78B00489208 /* cards_managerUITests.swift in Sources */,
+				BB7A8ABC2AF0D25400489208 /* AppDelegate.swift in Sources */,
+				BB7A8ABA2AF0A88600489208 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BB7A8A9E2AF0A78B00489208 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB7A8A872AF0A78800489208 /* cards_manager */;
-			targetProxy = BB7A8A9D2AF0A78B00489208 /* PBXContainerItemProxy */;
-		};
-		BB7A8AA82AF0A78B00489208 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB7A8A872AF0A78800489208 /* cards_manager */;
-			targetProxy = BB7A8AA72AF0A78B00489208 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BB7A8AAE2AF0A78B00489208 /* Debug */ = {
@@ -428,10 +274,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = cards_manager/cards_manager.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cards_manager/Preview Content\"";
-				DEVELOPMENT_TEAM = WJPZ6DAZP6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cards_manager/Info.plist;
@@ -440,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,9 +295,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.batype.cards-manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,6 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = cards_manager/cards_manager.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cards_manager/Preview Content\"";
@@ -471,6 +324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,85 +332,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.batype.cards-manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BB7A8AB42AF0A78B00489208 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WJPZ6DAZP6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.batype.cards-managerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cards_manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cards_manager";
-			};
-			name = Debug;
-		};
-		BB7A8AB52AF0A78B00489208 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WJPZ6DAZP6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.batype.cards-managerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cards_manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cards_manager";
-			};
-			name = Release;
-		};
-		BB7A8AB72AF0A78B00489208 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WJPZ6DAZP6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.batype.cards-managerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = cards_manager;
-			};
-			name = Debug;
-		};
-		BB7A8AB82AF0A78B00489208 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WJPZ6DAZP6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.batype.cards-managerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = cards_manager;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -577,24 +359,6 @@
 			buildConfigurations = (
 				BB7A8AB12AF0A78B00489208 /* Debug */,
 				BB7A8AB22AF0A78B00489208 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB7A8AB32AF0A78B00489208 /* Build configuration list for PBXNativeTarget "cards_managerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB7A8AB42AF0A78B00489208 /* Debug */,
-				BB7A8AB52AF0A78B00489208 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB7A8AB62AF0A78B00489208 /* Build configuration list for PBXNativeTarget "cards_managerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB7A8AB72AF0A78B00489208 /* Debug */,
-				BB7A8AB82AF0A78B00489208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
